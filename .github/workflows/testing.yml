@@ -28,7 +28,7 @@ jobs:
         run: python -m pytest
       - name: "Run Unit-Test"
         run: python -m unittest
-      - name: "Get coverage report"
+      - name: "Get Coverage Report"
         run: coverage run -m pytest
       - name: "Upload coverage Report as artifact"
         uses: actions/upload-artifact@v2
